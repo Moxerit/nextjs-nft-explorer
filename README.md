@@ -167,5 +167,6 @@ Distributed under the MIT License.
 - [@thatguyintech](https://twitter.com/thatguyintech)
 
 This was converted to Next.js by Moxerit for fun.
+- [@Moxerit](https://twitter.com/Moxerit)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
