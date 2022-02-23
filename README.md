@@ -3,6 +3,7 @@
 <div align="center">
 
   <h3 align="center">Alchemy NFT API Demo | Next.js Version</h3>
+  <h2>Modified for Next.js by Moxerit</h2>
 
   <p align="center">
     Find, verify, and display any NFT with ease.
