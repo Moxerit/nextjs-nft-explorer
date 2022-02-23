@@ -70,7 +70,7 @@ Supporting both ERC1155 and ERC721!
 ### Built With
 
 * [Alchemy](https://www.alchemy.com)
-* [React.js](https://reactjs.org/)
+* [Next.js](https://nextjs.org/)
 * [TailwindCSS](https://getbootstrap.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -92,11 +92,14 @@ Getting started is super simple! Follow the following steps and start fetching N
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/alchemyplatform/Build-Your-NFT-Explorer.git
+   git clone https://github.com/Moxerit/nextjs-nft-explorer.git
    ```
 2. Install the dependencies
    ```sh
    npm install
+   ```
+   ```sh
+   yarn install
    ```
    
 3. Create an account on [Alchemy.com](https://www.alchemy.com/)
@@ -105,6 +108,9 @@ Getting started is super simple! Follow the following steps and start fetching N
 6. Run the application
   ```sh
   npm start
+  ```
+  ```sh
+  yarn dev
   ```
   
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -158,5 +164,7 @@ Distributed under the MIT License.
 
 - [@VittoStack](https://twitter.com/VittoStack)
 - [@thatguyintech](https://twitter.com/thatguyintech)
+
+This was converted to Next.js by Moxerit for fun.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
