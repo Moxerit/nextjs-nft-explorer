@@ -1,34 +1,162 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
 
+  <h3 align="center">Alchemy NFT API Demo</h3>
+
+  <p align="center">
+    Find, verify, and display any NFT with ease.
+    <br />
+     <a href="https://www.youtube.com/watch?v=YehktV6LSqw"><strong>Full YouTube Tutorial »</strong></a>
+    <br />
+    <br />
+     <a href="https://docs.alchemy.com/alchemy/enhanced-apis/nft-api">Explore the docs</a>
+    ·
+    <a href="https://github.com/alchemyplatform/Build-Your-NFT-Explorer/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/alchemyplatform/Build-Your-NFT-Explorer/issues">Request Feature</a>
+  </p>
+
+</div>
+  
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+<img width="1600" alt="Screenshot 2022-02-03 at 18 11 09" src="https://user-images.githubusercontent.com/72762629/152393504-72162127-cf56-4de6-8f11-1653c24aa2b9.png">
+
+Build your own multi-chain NFT Explorer using the new Alchemy NFT API! 
+
+
+Built on top of ReactJs, this repo showcase the functionalities of the [Alchemy NFT API](https://www.alchemy.com/nft-api):
+- Keep track of your NFTs
+- Search NFTs by collection
+- Filter by an NFT Smart Contract address
+
+and display the images, attributes, collection name, and creator of your favorite NFTs.
+
+Supporting both ERC1155 and ERC721!
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+![Jan-21-2022 19-33-50-min](https://user-images.githubusercontent.com/72762629/150807611-5bf5ab02-e9a9-4cfb-95c2-61f2bf0f0e2f.gif)
+
+
+### Built With
+
+* [Alchemy](https://www.alchemy.com)
+* [React.js](https://reactjs.org/)
+* [TailwindCSS](https://getbootstrap.com)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
 ## Getting Started
 
-First, run the development server:
+Getting started is super simple! Follow the following steps and start fetching NFTs on Ethereum!
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Node >= 16.13.x
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Installation
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+1. Clone the repo
+   ```sh
+   git clone https://github.com/alchemyplatform/Build-Your-NFT-Explorer.git
+   ```
+2. Install the dependencies
+   ```sh
+   npm install
+   ```
+   
+3. Create an account on [Alchemy.com](https://www.alchemy.com/)
+4. Grab your Alchemy API Key
+5. Update `const apiKey = "demo";` in `src/utils/fetchNFTs.js` with your Alchemy API Key
+6. Run the application
+  ```sh
+  npm start
+  ```
+  
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<!-- USAGE EXAMPLES -->
+## Usage
 
-## Deploy on Vercel
+1. Insert a wallet address in the input field to retrieve all Ethereum NFTs associated with that address
+2. Insert the Smart contract address to retrieve owned NFTs by contract address
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+_For more examples, please refer to the [Documentation](https://docs.alchemy.com/alchemy/enhanced-apis/nft-api)_
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- CONTACT -->
+## Contact
+
+ - [@AlchemyPlatform](https://twitter.com/AlchemyPlatform)
+ - [Discord](https://www.alchemy.com/discord)
+
+ This repo was originally created by the wonderful:
+
+- [@VittoStack](https://twitter.com/VittoStack)
+- [@thatguyintech](https://twitter.com/thatguyintech)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
