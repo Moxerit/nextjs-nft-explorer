@@ -2,7 +2,7 @@
 <br />
 <div align="center">
 
-  <h3 align="center">Alchemy NFT API Demo</h3>
+  <h3 align="center">Alchemy NFT API Demo | Next.js Version</h3>
 
   <p align="center">
     Find, verify, and display any NFT with ease.
